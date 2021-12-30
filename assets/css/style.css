@@ -7,6 +7,14 @@
     font-family: Roboto;
 }
 
+main>h1 {
+    text-align: center;
+    padding: 1.5% 0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    letter-spacing: 2px;
+}
+
 #gridSection {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -18,6 +26,18 @@ article {
     border: 5px solid brown;
     background: beige;
     border-radius: 10px;
+}
+
+section>div {
+    padding: .5% 0%;
+}
+
+section>input {
+    padding: .8% 2%;
+    margin: 1% 0 0 0;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 article h1 {
@@ -50,4 +70,8 @@ article div img {
 .specialAttack {
     text-align: center;
     padding: 2% 0;
+}
+
+.inputContainer {
+    text-align: center;
 }

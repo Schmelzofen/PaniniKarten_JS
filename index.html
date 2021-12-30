@@ -11,23 +11,24 @@
     <main>
       <h1>Add a Card!</h1>
       <form action="">
-        <div>
-          <input type="text" name="" id="card" placeholder="Card Name">
-          <input type="text" name="" id="attack" placeholder="Special Attack">
-        </div>
-        <div>
-          <input type="text" name="" id="power" placeholder="Power">
-          <input type="text" name="" id="endurance" placeholder="Endurance">
-        </div>
-        <div>
-          <input type="text" name="" id="weaknessElement" placeholder="Weakness (Element)">
-          <input type="text" name="" id="strengthElement" placeholder="Strength (Element)">
-        </div>
-        <div>
-          <input type="text" name="" id="imageUrl" placeholder="Image URL">
-        </div>
-        <input type="button" value="Add" onclick="summonMonster()">
-        <input type="button" value="save as JSON" onclick="saveJSON()">
+        <section class="inputContainer">
+          <div>
+            <input type="text" name="" id="card" placeholder="Card Name">
+            <input type="text" name="" id="attack" placeholder="Special Attack">
+          </div>
+          <div>
+            <input type="text" name="" id="power" placeholder="Power">
+            <input type="text" name="" id="endurance" placeholder="Endurance">
+          </div>
+          <div>
+            <input type="text" name="" id="weaknessElement" placeholder="Weakness (Element)">
+            <input type="text" name="" id="strengthElement" placeholder="Strength (Element)">
+          </div>
+          <div>
+            <input type="text" name="" id="imageUrl" placeholder="Image URL">
+          </div>
+          <input type="button" value="Add" onclick="summonMonster()">
+        </section>
       </form>
       <section id="gridSection">
 
