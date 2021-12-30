@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#gridSection {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+}
+
+article {
+    border: 5px solid brown;
+    background: beige;
+}
+
+article h1 {
+    text-align: center;
+    padding: 3% 0 0 0;
+}
+
+article div img {
+    display: block;
+    margin: 0 auto;
+}
+
+.powerEndurance,
+.elementPart {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+}
+
+.elementPart p:nth-of-type(1) {
+    border: 1px solid black;
+    color: darkgreen;
+}
+
+.elementPart p:nth-of-type(2) {
+    border: 1px solid black;
+    color: crimson;
+}
+
+.specialAttack {
+    text-align: center;
+    padding: 2% 0;
+}

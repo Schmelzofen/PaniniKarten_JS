@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panini Grill</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Add a Card!</h1>
+      <form action="">
+        <div>
+          <input type="text" name="" id="card" placeholder="Card Name">
+          <input type="text" name="" id="attack" placeholder="Special Attack">
+        </div>
+        <div>
+          <input type="text" name="" id="power" placeholder="Power">
+          <input type="text" name="" id="endurance" placeholder="Endurance">
+        </div>
+        <div>
+          <input type="text" name="" id="weaknessElement" placeholder="Weakness (Element)">
+          <input type="text" name="" id="strengthElement" placeholder="Strength (Element)">
+        </div>
+        <div>
+          <input type="text" name="" id="imageUrl" placeholder="Image URL">
+        </div>
+        <input type="button" value="Add" onclick="summonMonster()">
+        <input type="button" value="save as JSON" onclick="saveJSON()">
+      </form>
+      <section id="gridSection">
+
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
